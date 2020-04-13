@@ -1,0 +1,3 @@
+No meu trabalho, os itens são gerados aleatoriamente toda vez que resetam, ou seja, não foram utilizados itens pré-definidos. 
+Diante disso, se mostrou inviável gerar um arquivo itens.txt e criar itens pré-definidos, uma vez que isso comprometeria boa 
+parte da lógica do programa.
