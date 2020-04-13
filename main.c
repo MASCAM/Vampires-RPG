@@ -140,7 +140,7 @@ int Vampiro_2(float *V2_HP, int *V2_Pocao) {
  srand(time(NULL));
  if((*V2_HP <= 50) && (*V2_Pocao >= 1)) {
     return 4;
- } else if (V2_HP <= 5) {
+ } else if (*V2_HP <= 5) {
     return 5;
  } else {
     V2_Acao = rand() %3 + 1;
@@ -569,8 +569,6 @@ int main(){
                 fread(&Player_Coluna_Inicial, sizeof(int), 1, jogo_arquivo_leitura);
                 fread(&K, sizeof(int), 1, jogo_arquivo_leitura);
             }
-            fclose(jogo_arquivo_leitura);
-            fclose(mapa_arquivo);
         }
         for (i = 0; i < 50; i++)  {
             if (Portas[i] == TRUE && Comparacao == FALSE) {
