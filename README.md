@@ -9,3 +9,5 @@ gcc -c main.c
 gcc main.c -o main
 
 ./main
+
+If you want to run it on Windows just run it on Code Blocks.
